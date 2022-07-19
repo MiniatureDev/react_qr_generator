@@ -1,0 +1,30 @@
+{
+  "name": "react_qr_generator",
+  "version": "1.0.0",
+  "description": "QR code generator developed with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiniatureDev/react_qr_generator.git"
+  },
+  "keywords": [],
+  "author": "MiniatureDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiniatureDev/react_qr_generator/issues"
+  },
+  "homepage": "https://github.com/MiniatureDev/react_qr_generator#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
