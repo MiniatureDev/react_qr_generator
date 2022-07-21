@@ -88,7 +88,7 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-.parcel_cache
+.parcel-cache
 
 # vuepress build output
 .vuepress/dist

@@ -2,9 +2,11 @@
   "name": "react_qr_generator",
   "version": "1.0.0",
   "description": "QR code generator developed with React",
-  "main": "index.js",
+  "main": "./src/app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./public/index.html"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
-    "parcel": "^2.6.2"
+    "parcel": "^2.6.2",
+    "process": "^0.11.10"
   }
 }
